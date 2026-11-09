@@ -18,7 +18,7 @@
 | Kittl | mockups e geração de arte | MCP (conector do Claude) | ligada | 2026-11-09 |
 | Fábrica de Conteúdo com IA | editar os Reels do celular (corte, legenda, peças animadas, trilha, capa) no estilo `oriven-celular`, com a marca em `marca/` | pasta própria em `C:\Users\medei\fabrica-de-conteudo` (fora do OneDrive de propósito): abrir uma conversa nessa pasta e colar um pedido do `marca/PEDIDOS.md` | ligada | 2026-11-09 |
 | ffmpeg + faster-whisper (local) | editar e legendar os Reels (skill reels-oriven) | CLI | ligada | 2026-11-09 |
-| Ratoeira (VPS) | rodar rotinas fora deste computador | a definir | não ligada | 2026-11-09 |
+| Ratoeira (VPS) | rodar o sistema e rotinas fora deste computador (chat em https://srv2142624.hstgr.cloud) | cópia do sistema em `/srv/ratoeira/areas/trabalho/oriven-ratos-os`, origem `ratoeira`; troca com este computador pelo GitHub (`Edyfran/oriven-ratos-os`). Daqui: SSH `ratoeira` (chave com senha, destravada no ssh-agent do Windows) | ligada (falta o servidor ter acesso ao GitHub privado) | 2026-11-09 |
 
 ## Os sete assuntos que todo negócio tem
 
