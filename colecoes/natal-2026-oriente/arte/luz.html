@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="comum.css"></head><body>
+<div class="c"><svg width="1063" height="1063" viewBox="0 0 1063 1063">
+ <g transform="translate(531.5 440)" stroke="#D9772B" stroke-width="7" stroke-linecap="round">
+  <line x1='0' y1='-190' x2='0' y2='-330' transform='rotate(22.5)'/>
+<line x1='0' y1='-190' x2='0' y2='-330' transform='rotate(67.5)'/>
+<line x1='0' y1='-190' x2='0' y2='-330' transform='rotate(112.5)'/>
+<line x1='0' y1='-190' x2='0' y2='-330' transform='rotate(157.5)'/>
+<line x1='0' y1='-190' x2='0' y2='-330' transform='rotate(202.5)'/>
+<line x1='0' y1='-190' x2='0' y2='-330' transform='rotate(247.5)'/>
+<line x1='0' y1='-190' x2='0' y2='-330' transform='rotate(292.5)'/>
+<line x1='0' y1='-190' x2='0' y2='-330' transform='rotate(337.5)'/>
+  <line x1='0' y1='-140' x2='0' y2='-250' transform='rotate(45)'/>
+<line x1='0' y1='-140' x2='0' y2='-250' transform='rotate(135)'/>
+<line x1='0' y1='-140' x2='0' y2='-250' transform='rotate(225)'/>
+<line x1='0' y1='-140' x2='0' y2='-250' transform='rotate(315)'/>
+ </g>
+ <g transform="translate(531.5 440) scale(290)"><path d="M0,-1 C0.1,-0.1 0.1,-0.1 1,0 C0.1,0.1 0.1,0.1 0,1 C-0.1,0.1 -0.1,0.1 -1,0 C-0.1,-0.1 -0.1,-0.1 0,-1Z" fill="#D9772B"/></g>
+ <text id="w" class="t" x="531.5" y="610" text-anchor="middle" font-weight="900" font-size="300" fill="#1A1A1A">LUZ</text>
+ <text id="s" class="m" x="531.5" y="860" text-anchor="middle" font-weight="500" font-size="50" fill="#1A1A1A" letter-spacing="4">BRILHA NAS TREVAS · JO 1:5</text>
+</svg></div>
+<script>
+document.fonts.ready.then(()=>{
+ const fit=(id,W)=>{const e=document.getElementById(id);const b=e.getBBox();const fs=parseFloat(e.getAttribute('font-size'));e.setAttribute('font-size',fs*W/b.width);};
+ fit('w',900); fit('s',900);
+ // centraliza LUZ verticalmente sobre a estrela
+ const w=document.getElementById('w');const b=w.getBBox();w.setAttribute('y',parseFloat(w.getAttribute('y'))+(440-(b.y+b.height/2))+10);
+ document.body.dataset.ok=1;});
+</script></body></html>

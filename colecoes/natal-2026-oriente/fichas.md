@@ -1,6 +1,6 @@
 # Pack de Natal 2026 · ORIENTE
 
-Criado em 2026-11-15. Status: proposta, aguardando aprovação do Edyfran.
+Criado em 2026-11-15. Status: aprovado pelo Edyfran em 2026-11-15. Artes em `arte/` (PNG 1063 px + o HTML de onde saíram; `node arte/render.mjs "$PWD/arte" "$PWD/arte"` gera de novo), mockups em `mockups/`.
 
 **Premissas:** cristã, oversized, só frente no peito (9 × 9 cm), 3 estampas com pesos visuais diferentes.
 
