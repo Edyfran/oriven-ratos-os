@@ -1,0 +1,14 @@
+:root{--carvao:#1A1A1A;--off:#F2EFE8;--areia:#C8B89A;--chumbo:#4A4A4A;--laranja:#D9772B}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{position:relative;font-family:'Archivo',sans-serif;background:var(--carvao);color:var(--off)}
+body::after{content:"";position:absolute;inset:0;filter:url(#noise);opacity:.05;pointer-events:none;z-index:50}
+.t{font-family:'Archivo';font-stretch:125%;font-weight:900;text-transform:uppercase;line-height:.92;letter-spacing:-1px}
+.m{font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:4px}
+.tag{position:absolute;top:64px;left:64px;font-size:24px;z-index:10}
+.num{position:absolute;top:64px;right:64px;font-size:24px;z-index:10;opacity:.7}
+.prog{position:absolute;left:0;bottom:0;height:6px;background:var(--laranja);z-index:10}
+.star{display:inline-block}
+.claro{background:var(--off);color:var(--carvao)}
+.foto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+p{font-size:34px;line-height:1.38;font-weight:400}
