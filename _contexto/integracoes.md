@@ -15,7 +15,8 @@
 | Notion · Pedidos ORIVEN | pedidos da pré-venda e vendas: cliente, estampa, tamanho, cor, pagamento, status, rastreio. Base da grade de tamanhos e do pedido de DTF | MCP (conector do Claude), data source `collection://23951a29-76af-4d67-987a-a3c7e39a6af9` · [abrir](https://app.notion.com/p/aa129a1303c04d5c9eaddf3292b351d0) | ligada | 2026-11-09 |
 | Pix e link de pagamento | como o cliente paga na pré-venda | só você, na mão (o pagamento é marcado na base Pedidos) | não ligada | 2026-11-09 |
 | Canva | artes estáticas e capas | MCP (conector do Claude) | ligada | 2026-11-09 |
-| Kittl | mockups e geração de arte | MCP (conector do Claude) | ligada | 2026-11-09 |
+| Kittl | mockups e geração de arte (montar mockup não gasta crédito) | MCP (conector do Claude) | ligada | 2026-11-15 |
+| ChatGPT (gerador de imagem) | mockups com modelo e cenário | skill `gpt-image2-ratos`, com o login do Codex nesta VPS; gasta o limite do plano ChatGPT | ligada | 2026-11-15 |
 | Fábrica de Conteúdo com IA | editar os Reels do celular (corte, legenda, peças animadas, trilha, capa) no estilo `oriven-celular`, com a marca em `marca/` | pasta própria em `C:\Users\medei\fabrica-de-conteudo` (fora do OneDrive de propósito): abrir uma conversa nessa pasta e colar um pedido do `marca/PEDIDOS.md` | ligada | 2026-11-09 |
 | ffmpeg + faster-whisper (local) | editar e legendar os Reels (skill reels-oriven) | CLI | ligada | 2026-11-09 |
 | Ratoeira (VPS) | rodar o sistema e rotinas fora deste computador (chat em https://srv2142624.hstgr.cloud) | cópia do sistema em `/srv/ratoeira/areas/trabalho/oriven-ratos-os`, origem `ratoeira`; troca com este computador pelo GitHub (`Edyfran/oriven-ratos-os`). Daqui: SSH `ratoeira` (chave com senha, destravada no ssh-agent do Windows) | ligada (falta o servidor ter acesso ao GitHub privado) | 2026-11-09 |

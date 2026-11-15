@@ -13,6 +13,7 @@
 
 - Produção em DTF: folha 30 cm × 1 m, costas 28 × 38 cm + frente 8 a 10 cm, rende 2 camisetas completas por metro.
 - Modelo padrão de venda: pré-venda a cada estampa nova (vende primeiro, produz depois, sem estoque parado).
+- A ORIVEN é moda masculina: modelo, mockup e foto sempre com homem (2026-11-15).
 - Pode lançar linhas não cristãs, sempre com respeito à fé.
 - A ORIVEN é separada da Uniqee Personalizados: nunca misturar nome, cores, skills ou linguagem.
 - Orçamento inicial enxuto: priorizar ações baratas que validem demanda (pré-venda, orgânico, microparcerias).

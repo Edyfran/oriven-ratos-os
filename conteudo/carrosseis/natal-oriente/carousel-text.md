@@ -1,7 +1,7 @@
 # Carrossel · Pack de Natal ORIENTE
 
 Criado em 2026-11-15. Tipo: drop/produto. Estilo: elaborado (design-oriven.md). Fotos: mockups do ChatGPT (`imagens/`).
-Status: texto aguardando aprovação.
+Status: texto e visual aprovados em 2026-11-15. Slides em `instagram/` (gen.py gera os HTML, render.mjs gera os PNG). Ainda não postado.
 
 > Conferir o texto dos versículos na versão indicada antes de postar (MT 1:23 e MT 2:2 na ARA, JO 1:5 na NVI).
 
